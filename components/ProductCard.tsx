@@ -17,21 +17,10 @@ export default function ProductCard({ product }: ProductCardProps) {
       {/* Image placeholder — swap with next/image when you have real assets */}
       <div className="aspect-video bg-stone-900 relative overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center">
-          {/* Placeholder visual until real screenshots exist */}
-          <div className="w-24 h-24 border border-stone-700 rounded-full flex items-center justify-center">
-            <svg
-              className="w-10 h-10 text-stone-700"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <circle cx="12" cy="12" r="3" strokeWidth="1.5" />
-              <path
-                d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-              />
-            </svg>
+          <div className="aspect-video bg-stone-900 border border-stone-800 flex items-center justify-center">
+            <p className="font-mono text-xs text-stone-600">
+              <img src={product.images[0]} alt="Screenshot of the plugin interface" className="w-full h-full object-cover" />
+            </p>
           </div>
         </div>
         {/* Format badges */}
@@ -47,7 +36,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         </div>
         {product.free && (
           <div className="absolute top-3 right-3">
-            <span className="font-mono text-xs px-2 py-0.5 bg-orange-500/10 border border-orange-500/30 text-orange-400">
+            <span className="font-mono text-xs px-2 py-0.5 bg-stone-950/80 border border-orange-500/30 text-orange-400">
               FREE
             </span>
           </div>

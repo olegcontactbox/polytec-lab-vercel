@@ -14,6 +14,7 @@ import { Syne, IBM_Plex_Mono, Crimson_Pro } from 'next/font/google'
 import './globals.css'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
+import Script from 'next/script'
 
 // next/font automatically downloads & self-hosts the font — no external request at runtime
 const syne = Syne({
@@ -55,6 +56,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       // CSS custom property vars injected here so every page can access them
       className={`${syne.variable} ${ibmMono.variable} ${crimson.variable}`}
     >
+      <Script
+        defer
+        src="https://cloud.umami.is/script.js"
+        data-website-id="ab6bd226-f846-4bcc-9448-9da79ea82f7e"
+      />
       <body className="bg-[#0c0a09] text-amber-50 min-h-screen flex flex-col antialiased">
         <Nav />
         {/* flex-1 pushes Footer to the bottom even on short pages */}

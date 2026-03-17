@@ -173,6 +173,8 @@ export default async function ProductPage({
 
             <a
               href={product.downloadUrl}
+              data-umami-event="download"
+              data-umami-event-slug={slug}
               className="block w-full text-center bg-orange-500 hover:bg-orange-400 text-stone-950 font-mono text-xs tracking-widest uppercase px-6 py-3 transition-colors"
             >
               Download
