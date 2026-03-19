@@ -1,6 +1,7 @@
-# Polytec Lab website
+# POLYTECLAB.COM
 
 Product site for Polytec Lab — analog-inspired music software.
+
 
 ## Stack
 

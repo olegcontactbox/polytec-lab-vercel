@@ -22,7 +22,7 @@ export default function ProductsPage() {
           : `${products.length} tools. More when they're ready.`}
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-stone-800">
+      <div className="gap-px bg-stone-800">
         {products.map((product) => (
           <ProductCard key={product.slug} product={product} />
         ))}

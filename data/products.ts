@@ -63,8 +63,9 @@ Source code available on GitHub - https://github.com/olegcontactbox/polytec-drum
       // 'macOS 11+'
     ],
     requirements: [
-      'VST3 or AU compatible host (Ableton, Reaper, Logic, FL Studio…)',
-      'Windows 10 / macOS 11 or later',
+      'VST3 compatible host (Ableton, Reaper, Logic, FL Studio…)',
+      // 'Windows 10 / macOS 11 or later',
+      'Windows 10 or later',
       '64-bit only',
       '4 GB RAM minimum, 8 GB recommended',
       '300 MB disk space',

@@ -80,7 +80,7 @@ export default function HomePage() {
         </div>
 
         {/* Grid — single item for now, but ready for more */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-stone-800">
+        <div className="gap-px bg-stone-800">
           {products.map((product) => (
             <ProductCard key={product.slug} product={product} />
           ))}
