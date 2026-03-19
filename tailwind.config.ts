@@ -17,6 +17,9 @@ const config: Config = {
         // Warm phosphor amber palette
         glow: '#f97316', // orange-500 — the main accent
       },
+      screens: {
+        sm: '420px',
+      },
     },
   },
   plugins: [],

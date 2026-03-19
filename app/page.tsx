@@ -35,7 +35,7 @@ export default function HomePage() {
             Music production tools
           </p>
 
-          <h1 className="font-display text-5xl md:text-7xl font-extrabold leading-[0.95] tracking-tight text-amber-50 text-glow max-w-2xl">
+          <h1 className="font-display text-4xl md:text-7xl sm:text-5xl font-extrabold leading-[0.95] tracking-tight text-amber-50 text-glow max-w-2xl">
             Analog-inspired
             <br />
             software
@@ -44,7 +44,7 @@ export default function HomePage() {
           </h1>
 
           <p className="mt-8 font-body text-lg md:text-xl text-stone-400 max-w-xl leading-relaxed italic">
-            Instruments made to sound as good as analog gear with software's ease of use and accessibility.
+            Digital instruments made to sound as good as analog gear.
           </p>
 
           <div className="mt-10 flex items-center gap-6">

@@ -13,7 +13,7 @@ export default function ProductCard({ product }: ProductCardProps) {
     <Link
       href={`/products/${product.slug}`}
       className="group block border border-stone-800 hover:border-orange-500/50 transition-colors duration-300 bg-stone-900/30 hover:bg-stone-900/60 
-      grid grid-cols-1 md:grid-cols-2 grid-cols-[1fr_1fr]"
+      grid grid-cols-1 md:grid-cols-[1fr_1fr]"
     >
       {/* Image placeholder — swap with next/image when you have real assets */}
       <div className="aspect-video bg-stone-900 relative overflow-hidden">
