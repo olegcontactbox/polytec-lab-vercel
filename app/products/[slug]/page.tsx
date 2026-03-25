@@ -101,7 +101,7 @@ export default async function ProductPage({
       <div className="grid md:grid-cols-[2fr_1fr] gap-12 items-start">
 
         {/* ── LEFT: Main content ─────────────────────────────────────── */}
-        <div className="space-y-14">
+        <div className="space-y-14 max-w-100" >
 
           {/* Image gallery placeholder */}
           <div className="space-y-3">
@@ -158,7 +158,7 @@ export default async function ProductPage({
         </div>
 
         {/* ── RIGHT: Sidebar ─────────────────────────────────────────── */}
-        <aside className="space-y-8 md:sticky md:top-20">
+        <aside className="space-y-8 md:sticky md:top-20 max-w-100">
 
           {/* Download CTA */}
           <div className="border border-stone-800 p-6 space-y-4">

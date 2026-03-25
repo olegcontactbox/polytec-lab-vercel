@@ -31,8 +31,8 @@ export const products: Product[] = [
   {
     slug: 'polytec-drum-machine',
     name: 'Polytec Drum Machine',
-    // tagline: 'Analog warmth. Digital guts. For free. (Free Win beta. MAC version coming soon)',
-    tagline: 'FREE Windows beta available now. macOS version coming soon!',
+    tagline: 'Analog warmth. Digital guts. For free.',
+    // tagline: 'FREE Windows beta available now. macOS version coming soon!',
     shortDescription:
       'A VST sample-based drum machine built around real analog hardware samples. Punchy, warm, and alive!',
     longDescription: `
@@ -50,22 +50,24 @@ Source code available on GitHub - https://github.com/olegcontactbox/polytec-drum
       // '/images/pdm-channels.jpg',
     ],
     audioDemos: [
-      { title: 'Vintage electro-bass groove (kick, snares, hats only)', file: 'sbdrummacine-jam-02.wav', bpm: 128 },
+      { title: 'Electro-bass (kick, snares, hats only)', file: `polytecDrumsDemo01BasicsOnly.wav`, bpm: 128 },
+      { title: `Raku's 4x4 long kicks groove`, file: `polytecDrumsDemo02Raku'sGroove.wav`, bpm: 128 },
+
       // { title: 'Half-time groove', file: 'demo-halftime.mp3', bpm: 88 },
       // { title: 'Jungle break — 95% probability', file: 'demo-jungle.mp3', bpm: 170 },
     ],
-    downloadUrl: 'https://github.com/olegcontactbox/polytec-drums/releases/download/polytec-drums-release/polytecDrumsFreeBeta.-.0.1.0.zip',
+    downloadUrl: 'https://github.com/olegcontactbox/polytec-drums/releases/tag/polytec-drums-release',
     version: '0.1.0-beta',
-    releaseDate: '2024-11-01',
+    releaseDate: '2026-03-01',
     format: ['VST3', 'AU'],
     os: [
-      'Windows 10+',
-      // 'macOS 11+'
+      'Windows',
+      'macOS'
     ],
     requirements: [
-      'VST3 compatible host (Ableton, Reaper, Logic, FL Studio…)',
+      'VST3 (Windows) or AU (macOS) compatible host (Ableton, Reaper, Logic, FL Studio…)',
       // 'Windows 10 / macOS 11 or later',
-      'Windows 10 or later',
+      // 'Windows 10 or later',
       '64-bit only',
       '4 GB RAM minimum, 8 GB recommended',
       '300 MB disk space',

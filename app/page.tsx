@@ -116,10 +116,10 @@ export default function HomePage() {
               {/* menus. More decisions per square inch. The software I build tries */}
               {/* to carry that forward. */}
             </p>
-            <p>
+            {/* <p>
               The goal is to be helpful to like-minded enthusiasts. If something is
               useful to you, that&apos;s the point.
-            </p>
+            </p> */}
             {/* <p>
               Everything here is free unless stated otherwise. If something is
               useful to you, that&apos;s the point.
