@@ -39,7 +39,7 @@ export const products: Product[] = [
 Polytec Drum Machine started as a small idea — to have the sound and feel of analog 
 drum machines in a software format.
 
-The initial result is a 8-channel sample-based instrument built around recordings of actual hardware. 
+The result is a 8-channel sample-based instrument built around recordings of actual hardware. 
 But it’s not just a static sample player — the sounds are modulated with carefully designed controls that make it feel alive, responsive and versatile as possible.
 
 Source code available on GitHub - https://github.com/olegcontactbox/polytec-drums

@@ -88,7 +88,7 @@ export default async function ProductPage({
           <span className="font-mono text-xs text-stone-600">v{product.version}</span>
         </div>
 
-        <h1 className="font-display text-5xl md:text-6xl font-extrabold text-amber-50 leading-none tracking-tight mb-4">
+        <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-extrabold text-amber-50 leading-none tracking-tight mb-4">
           {product.name}
         </h1>
 
