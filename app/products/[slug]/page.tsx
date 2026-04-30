@@ -28,6 +28,7 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { getAllProductSlugs, getProductBySlug } from '@/data/products'
 import AudioPlayer from '@/components/AudioPlayer'
+import SubscribeButton from '@/components/SubscribeButton'
 
 // ── 1. generateStaticParams ───────────────────────────────────────────────
 export function generateStaticParams() {
@@ -179,6 +180,7 @@ export default async function ProductPage({
             >
               Download
             </a>
+            <SubscribeButton />
 
             {/* Donation hook — uncomment and wire to Stripe/Ko-fi when ready */}
             {/* <p className="font-mono text-xs text-stone-600 text-center">
