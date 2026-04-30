@@ -6,6 +6,7 @@
 // This file lives in the app directory but is never a page — it only
 // handles HTTP requests and returns Response objects.
 //
+// CONTACT FORM IS NOT WIRED UP !!!
 // To wire this up for real, replace the console.log with:
 //  • Resend / Nodemailer  — send yourself an email
 //  • A database insert    — store messages in Postgres / Supabase
